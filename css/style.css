@@ -317,7 +317,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
 }
-
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   background-size: cover;
   background-position: center;
@@ -328,12 +327,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
 }
-
 #hero .carousel-item::before {
   content: '';
   background-color: rgba(12, 13, 14, 0.4);
 }
-
 #hero .carousel-container {
   display: flex;
   justify-content: center;
@@ -344,43 +341,36 @@ h1, h2, h3, h4, h5, h6 {
   left: 50px;
   right: 50px;
 }
-
 #hero .container {
-  text-align: center;
+  /* text-align: center; */
 }
-
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
 }
-
 #hero p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
 }
-
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
 }
-
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-left,
 #hero .carousel-inner .active.carousel-item-right {
   opacity: 0;
 }
-
 #hero .carousel-inner .active,
 #hero .carousel-inner .carousel-item-next.carousel-item-left,
 #hero .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
   transition: 0.5s;
 }
-
 #hero .carousel-inner .carousel-item-next,
 #hero .carousel-inner .carousel-item-prev,
 #hero .carousel-inner .active.carousel-item-left,
@@ -388,11 +378,9 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
-
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
 }
-
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
   font-size: 36px;
@@ -405,12 +393,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   color: rgba(255, 255, 255, 0.5);
 }
-
 #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
 }
-
 #hero .carousel-indicators li {
   cursor: pointer;
   background: #fff;
@@ -422,12 +408,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .6;
   transition: 0.3s;
 }
-
 #hero .carousel-indicators li.active {
   opacity: 1;
   background: #428bca;
 }
-
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -443,45 +427,36 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.8s;
   background: #428bca;
 }
-
 #hero .btn-get-started:hover {
   background: #5697d0;
 }
-
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
   }
 }
-
 @media (min-width: 1024px) {
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
   }
 }
-
 @media (max-height: 500px) {
   #hero {
     height: 120vh;
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* Sections General */
 section {
   padding: 80px 0;
 }
-
 .section-bg {
   background-color: #fafafb;
 }
-
 .section-title {
   text-align: center;
   padding-bottom: 50px;
 }
-
 .section-title h2 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -494,43 +469,35 @@ section {
   text-transform: uppercase;
   border-radius: 50px;
 }
-
 .section-title h3 {
   margin: 15px 0 0 0;
   font-size: 32px;
   font-weight: 700;
 }
-
 .section-title h3 span {
   color: #428bca;
 }
-
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 500;
   color: #919191;
 }
-
 @media (min-width: 1024px) {
   .section-title p {
     width: 50%;
   }
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* About */
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
   color: #394047;
   margin-bottom: 15px;
 }
-
 .about .icon-box {
   margin-top: 40px;
 }
-
 .about .icon-box .icon {
   float: left;
   display: flex;
@@ -542,45 +509,37 @@ section {
   border-radius: 50px;
   transition: 0.5s;
 }
-
 .about .icon-box .icon i {
   color: #428bca;
   font-size: 32px;
 }
-
 .about .icon-box:hover .icon {
   background: #428bca;
   border-color: #428bca;
 }
-
 .about .icon-box:hover .icon i {
   color: #fff;
 }
-
 .about .icon-box .title {
   margin-left: 85px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
 }
-
 .about .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
 }
-
 .about .icon-box .title a:hover {
   color: #428bca;
 }
-
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
 }
-
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../images/about-1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
